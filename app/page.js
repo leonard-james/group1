@@ -1,86 +1,22 @@
 import Link from 'next/link';
 import '@/app/globals.css';
-import Button from '@mui/material/Button';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-100 p-8">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">WebTech Final Project</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {/* Users Section */}
-          <Link href="/users" passHref>
-            <div className="bg-white shadow-md hover:shadow-xl rounded-2xl p-6 transition cursor-pointer">
-              <Button variant="contained" color="primary" fullWidth>
-                Users
-              </Button>
-              <p className="text-gray-500 mt-4">Manage and view all users.</p>
-            </div>
+    <main className="min-h-screen w-full bg-green-100 pt-16 flex justify-center">
+      <div className="bg-gray-800 bg-opacity-90 rounded-2xl shadow-2xl p-16 w-full max-w-5xl flex flex-col items-center">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-2 text-center">Dynamic Web Application</h1>
+        <p className="text-gray-300 text-center mb-2">Built with Next.js and Tailwind CSS</p>
+        <p className="text-gray-200 text-center mb-8">Explore users, posts, and analytics.</p>
+        <div className="flex flex-row gap-8 w-full justify-center">
+          <Link href="/users" passHref legacyBehavior>
+            <a className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-3 px-8 rounded-lg shadow transition-colors text-lg">Users</a>
           </Link>
-
-          {/* Posts Section */}
-          <Link href="/posts" passHref>
-            <div className="bg-white shadow-md hover:shadow-xl rounded-2xl p-6 transition cursor-pointer">
-              <Button variant="contained" color="success" fullWidth>
-                Posts
-              </Button>
-              <p className="text-gray-500 mt-4">Manage and view all users.</p>
-              <p className="text-gray-500">Read and create posts.</p>
-            </div>
+          <Link href="/posts" passHref legacyBehavior>
+            <a className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-8 rounded-lg shadow transition-colors text-lg">Posts</a>
           </Link>
-
-          {/* Charts Section */}
-          <Link href="/charts" passHref>
-            <div className="bg-white shadow-md hover:shadow-xl rounded-2xl p-6 transition cursor-pointer">
-              <Button variant="contained" color="secondary" fullWidth>
-                Charts
-              </Button>
-              <p className="text-gray-500 mt-4">Manage and view all users.</p>
-            </div>
-          </Link>
-        </div>
-      </div>
-    </main>
-  );
-}import Link from 'next/link';
-import '@/app/globals.css';
-import Button from '@mui/material/Button';
-
-export default function Home() {
-  return (
-    <main className="min-h-screen bg-gray-100 p-8">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">WebTech Final Project</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {/* Users Section */}
-          <Link href="/users" passHref>
-            <div className="bg-white shadow-md hover:shadow-xl rounded-2xl p-6 transition cursor-pointer">
-              <Button variant="contained" color="primary" fullWidth>
-                Users
-              </Button>
-              <p className="text-gray-500 mt-4">Manage and view all users.</p>
-            </div>
-          </Link>
-
-          {/* Posts Section */}
-          <Link href="/posts" passHref>
-            <div className="bg-white shadow-md hover:shadow-xl rounded-2xl p-6 transition cursor-pointer">
-              <Button variant="contained" color="success" fullWidth>
-                Posts
-              </Button>
-              <p className="text-gray-500 mt-4">Manage and view all users.</p>
-              <p className="text-gray-500">Read and create posts.</p>
-            </div>
-          </Link>
-
-          {/* Charts Section */}
-          <Link href="/charts" passHref>
-            <div className="bg-white shadow-md hover:shadow-xl rounded-2xl p-6 transition cursor-pointer">
-              <Button variant="contained" color="secondary" fullWidth>
-                Charts
-              </Button>
-              <p className="text-gray-500 mt-4">Manage and view all users.</p>
-            </div>
+          <Link href="/charts" passHref legacyBehavior>
+            <a className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-3 px-8 rounded-lg shadow transition-colors text-lg">Charts</a>
           </Link>
         </div>
       </div>
