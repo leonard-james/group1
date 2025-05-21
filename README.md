@@ -1,4 +1,4 @@
-# 📌 Web Systems and Technologies Final Project
+Web Systems and Technologies Final Project
 
 For our final project in **Web Systems and Technologies**, our team created an interactive, fully responsive web application using **Next.js**, **Tailwind CSS**, and **ShadCN UI**.
 
@@ -6,7 +6,7 @@ This project served as a hands-on implementation of our skills in **frontend dev
 
 ---
 
-## 🛠️ Development Highlights
+Development Highlights
 
 - **Framework & Styling**: Built using Next.js (App Router) with Tailwind CSS for styling.
 - **UI Components**: Used ShadCN UI to create reusable components like buttons, cards, sidebars, pagination, and charts.
@@ -17,16 +17,13 @@ This project served as a hands-on implementation of our skills in **frontend dev
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 🔧 Requirements
+Installation & Setup
 
 - Node.js (v18+)
 - npm (v9+)
 - Git
 
-### 📦 Setup Steps
-
+Setup Steps
 ```bash
 # Create a new Next.js app
 npx create-next-app@latest webtech-final-project
