@@ -1,4 +1,4 @@
-# 📌 Web Systems and Technologies Final Project
+# Web Systems and Technologies Final Project
 
 For our final project in **Web Systems and Technologies**, our team created an interactive, fully responsive web application using **Next.js**, **Tailwind CSS**, and **ShadCN UI**.
 
@@ -6,7 +6,7 @@ This project served as a hands-on implementation of our skills in **frontend dev
 
 ---
 
-## 🛠️ Development Highlights
+## Development Highlights
 
 - **Framework & Styling**: Built using Next.js (App Router) with Tailwind CSS for styling.
 - **UI Components**: Used ShadCN UI to create reusable components like buttons, cards, sidebars, pagination, and charts.
@@ -17,15 +17,15 @@ This project served as a hands-on implementation of our skills in **frontend dev
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 🔧 Requirements
+### Requirements
 
 - Node.js (v18+)
 - npm (v9+)
 - Git
 
-### 📦 Setup Steps
+### Setup Steps
 
 ```bash
 # Create a new Next.js app
@@ -55,13 +55,14 @@ npm run dev       # Start development server
 npm run build     # Build the application
 npm start         # Start production server
 
-👥 Team Contributions
+Contributions
 Team Member	Contribution
 Shannel L. Regala	Initiated the project and developed page functionality
 Davilyn E. Genetia	Designed the user interface using Tailwind CSS
 Jasmine Mary P. Ginete	Implemented user authentication features
 Evelyn E. Bangate	Managed deployment and ensured the website’s functionality
 
-🌐 Live Demo
-🔗 Deployed on Vercel: https://viewpoint-sage.vercel.app/
+
+Vercel Link: https : viewpoint-sage.vercel.app/
+Google Drive Link : https://drive.google.com/drive/folders/1Qjwssu7dMf1Rvcwixc2FvmL3Gd2vpSSt
 
